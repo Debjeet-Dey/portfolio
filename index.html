@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aurora Effect</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="importmap">
+        {
+            "imports": {
+                "ogl": "https://esm.sh/ogl"
+            }
+        }
+    </script>
+</head>
+<body>
+    yooooo
+    <div id="aurora-container" class="aurora-container"></div>
+
+    <script type="module">
+        import { initAurora } from './main.js';
+        initAurora(document.getElementById('aurora-container'));
+    </script>
+</body>
+</html>
