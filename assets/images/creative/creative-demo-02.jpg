@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" width="800" height="1000">
+  <defs>
+    <linearGradient id="posterBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#080808"/>
+      <stop offset="50%" stop-color="#111111"/>
+      <stop offset="100%" stop-color="#050505"/>
+    </linearGradient>
+    <radialGradient id="neonGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#d4ff00" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="1000" fill="url(#posterBg)"/>
+  <circle cx="400" cy="450" r="300" fill="url(#neonGlow)"/>
+  <rect x="40" y="40" width="720" height="920" fill="none" stroke="rgba(255,255,255,0.15)" stroke-width="1"/>
+  <text x="70" y="90" fill="#d4ff00" font-family="'Courier New', monospace" font-size="14" letter-spacing="3">POSTER NO. 042 // TYPOGRAPHIC EXPERIMENT</text>
+  <text x="70" y="240" fill="#ffffff" font-family="sans-serif" font-weight="900" font-size="110" letter-spacing="-3">NEURAL</text>
+  <text x="70" y="340" fill="#d4ff00" font-family="sans-serif" font-weight="900" font-size="110" letter-spacing="-3">SYNTAX</text>
+  <circle cx="400" cy="540" r="160" fill="none" stroke="#d4ff00" stroke-width="2"/>
+  <polygon points="400,380 540,620 260,620" fill="none" stroke="rgba(255,255,255,0.4)" stroke-width="1.5"/>
+  <circle cx="400" cy="540" r="8" fill="#ff3b30"/>
+  <text x="70" y="780" fill="rgba(255,255,255,0.8)" font-family="sans-serif" font-weight="600" font-size="24" letter-spacing="1">EXPLORING DATA STRUCTURES &amp; VISUAL FORM</text>
+  <text x="70" y="820" fill="rgba(255,255,255,0.5)" font-family="sans-serif" font-size="16">DESIGNED BY DEBJEET DEY • KOLKATA, INDIA</text>
+  <line x1="70" y1="880" x2="730" y2="880" stroke="rgba(212,255,0,0.3)" stroke-width="1"/>
+  <text x="70" y="920" fill="#d4ff00" font-family="'Courier New', monospace" font-size="12">GRAPHIC DESIGN / PHOTO EDITING SERIES 2026</text>
+</svg>

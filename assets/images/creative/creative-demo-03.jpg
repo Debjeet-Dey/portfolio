@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 750" width="1000" height="750">
+  <defs>
+    <linearGradient id="photoBg" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#020202"/>
+      <stop offset="50%" stop-color="#0e1200"/>
+      <stop offset="100%" stop-color="#191919"/>
+    </linearGradient>
+    <radialGradient id="sunGlow" cx="50%" cy="40%" r="40%">
+      <stop offset="0%" stop-color="#d4ff00" stop-opacity="0.6"/>
+      <stop offset="50%" stop-color="#ff3b30" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1000" height="750" fill="url(#photoBg)"/>
+  <circle cx="500" cy="300" r="220" fill="url(#sunGlow)"/>
+  <circle cx="500" cy="300" r="100" fill="#000000" stroke="#d4ff00" stroke-width="4"/>
+  <text x="500" y="310" fill="#d4ff00" font-family="sans-serif" font-weight="900" font-size="28" text-anchor="middle" letter-spacing="4">ECLIPSE</text>
+  <line x1="100" y1="500" x2="900" y2="500" stroke="#d4ff00" stroke-width="2"/>
+  <polygon points="500,300 100,500 900,500" fill="rgba(212,255,0,0.03)"/>
+  <text x="100" y="560" fill="#ffffff" font-family="sans-serif" font-weight="800" font-size="42" letter-spacing="-1">PHOTO MANIPULATION &amp; ART DIRECTION</text>
+  <text x="100" y="610" fill="rgba(255,255,255,0.6)" font-family="sans-serif" font-size="18">Surreal lighting experiment combining digital photography and Photoshop composition</text>
+  <text x="100" y="680" fill="#d4ff00" font-family="'Courier New', monospace" font-size="14">DEBJEET DEY // CREATIVE SIDE 2026</text>
+</svg>

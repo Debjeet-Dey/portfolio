@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Debjeet Dey — Data Science & Software Developer Portfolio</title>
+  <meta name="description"
+    content="Personal portfolio of Debjeet Dey, dual-degree Data Science & Computer Science student at IIT Madras and Kazi Nazrul University. Full-stack developer & creative designer.">
+
+  <!-- CSS Stylesheets -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+
+  <!-- External CDNs: GSAP & Lenis Smooth Scroll -->
+  <script src="https://cdn.jsdelivr.net/npm/@studio-freight/lenis@1.0.42/dist/lenis.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" defer></script>
+
+  <!-- JS Modules -->
+  <script src="js/navigation.js" defer></script>
+  <script src="js/animations.js" defer></script>
+  <script src="js/main.js" defer></script>
+</head>
+
+<body>
+
+  <!-- Custom Cursor Elements -->
+  <div class="custom-cursor-ring" aria-hidden="true"></div>
+  <div class="custom-cursor-dot" aria-hidden="true"></div>
+
+  <!-- Header Navigation -->
+  <header class="site-header">
+    <a href="#hero" class="nav-brand" aria-label="Debjeet Dey Home">
+      <div class="nav-brand-mark">⌘</div>
+      <span>DEBJEET DEY</span>
+    </a>
+
+    <button class="nav-toggle-btn" aria-label="Toggle Navigation Menu" aria-expanded="false">
+      <span></span>
+      <span></span>
+    </button>
+  </header>
+
+  <!-- Fullscreen Navigation Overlay -->
+  <nav class="nav-overlay" aria-label="Main Navigation">
+    <ul class="nav-menu-list">
+      <li class="nav-menu-item"><a href="#hero" class="nav-menu-link"><span class="nav-num">01</span> HOME</a></li>
+      <li class="nav-menu-item"><a href="#about" class="nav-menu-link"><span class="nav-num">02</span> ABOUT</a></li>
+      <li class="nav-menu-item"><a href="#work" class="nav-menu-link"><span class="nav-num">03</span> WORK</a></li>
+      <li class="nav-menu-item"><a href="#education" class="nav-menu-link"><span class="nav-num">04</span> EDUCATION</a>
+      </li>
+      <li class="nav-menu-item"><a href="#skills" class="nav-menu-link"><span class="nav-num">05</span> SKILLS</a></li>
+      <li class="nav-menu-item"><a href="#creative" class="nav-menu-link"><span class="nav-num">06</span> CREATIVE</a>
+      </li>
+      <li class="nav-menu-item"><a href="#contact" class="nav-menu-link"><span class="nav-num">07</span> CONTACT</a>
+      </li>
+    </ul>
+
+    <div class="nav-overlay-footer">
+      <div class="nav-meta-block">
+        <h4>GET IN TOUCH</h4>
+        <p><a href="mailto:debjeetdeywindows@gmail.com">debjeetdeywindows@gmail.com</a></p>
+        <p>+91 8670395855</p>
+      </div>
+
+      <div class="nav-social-links">
+        <a href="https://github.com/Debjeet-Dey" target="_blank" rel="noopener">GITHUB ↗</a>
+        <a href="https://linkedin.com/in/debjeet-dey1234" target="_blank" rel="noopener">LINKEDIN ↗</a>
+        <a href="assets/resume/Debjeet-Dey-Resume.pdf" target="_blank" rel="noopener">RESUME PDF ↗</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Main Content Layout -->
+  <main>
+
+    <!-- SECTION 1: HERO -->
+    <section id="hero" class="hero-section">
+      <div class="hero-bg-glow"></div>
+      <div class="container hero-content">
+        <div class="hero-eyebrow">DATA SCIENCE × SOFTWARE × CREATIVE</div>
+        <h1 class="hero-title">
+          DEBJEET<br>
+          <span class="hero-title-yellow">DEY</span><span class="red-dot">.</span>
+        </h1>
+        <p class="hero-bio">
+          Building useful software, exploring data, and turning ideas into digital experiences. Dual-degree Data Science
+          &amp; Computer Science student skilled in Python, SQL, and full-stack web engineering.
+        </p>
+
+        <div class="hero-cta-group">
+          <!-- Download Resume Primary Action -->
+          <a href="assets/resume/Debjeet-Dey-Resume.pdf" download="Debjeet-Dey-Resume.pdf" class="btn-primary">
+            <span>DOWNLOAD RESUME ↓</span>
+          </a>
+          <!-- View Resume Secondary Action -->
+          <a href="assets/resume/Debjeet-Dey-Resume.pdf" target="_blank" rel="noopener" class="btn-secondary">
+            <span>VIEW RESUME ↗</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="container hero-footer">
+        <div class="hero-location">
+          <span class="hero-location-dot"></span>
+          <span>BASED IN KOLKATA, INDIA</span>
+        </div>
+        <div class="scroll-indicator">
+          <span>SCROLL TO EXPLORE</span>
+          <div class="scroll-indicator-arrow">↓</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 2: ABOUT -->
+    <section id="about" class="about-section reveal-on-scroll">
+      <div class="container">
+        <div class="about-grid">
+
+          <div class="about-left">
+            <div class="section-tag">01 / ABOUT</div>
+            <h2 class="about-heading">
+              DEVELOPER.<br>
+              <span class="text-yellow">DATA EXPLORER.</span><br>
+              LIFELONG LEARNER<span class="red-dot">.</span>
+            </h2>
+            <p class="about-text">
+              Dual-degree student pursuing a BS in Data Science and Applications from IIT Madras and a BSc (Hons) in
+              Computer Science from BB College, Kazi Nazrul University. Skilled in Python, SQL, and full-stack web
+              development, with hands-on experience building real-world applications.
+            </p>
+
+            <div class="about-details-list">
+              <div class="about-detail-item">
+                <div class="about-detail-icon">🎓</div>
+                <div class="about-detail-content">
+                  <h4>IIT Madras — BS Data Science</h4>
+                  <p>Expected Graduation: May 2028</p>
+                </div>
+              </div>
+              <div class="about-detail-item">
+                <div class="about-detail-icon">💻</div>
+                <div class="about-detail-content">
+                  <h4>BB College, KNU — BSc (Hons) CS</h4>
+                  <p>Expected Graduation: 2029</p>
+                </div>
+              </div>
+              <div class="about-detail-item">
+                <div class="about-detail-icon">📍</div>
+                <div class="about-detail-content">
+                  <h4>Location</h4>
+                  <p>Kolkata, West Bengal, India</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="hero-cta-group">
+              <!-- Resume buttons easy to update path -->
+              <a href="assets/resume/Debjeet-Dey-Resume.pdf" download="Debjeet-Dey-Resume.pdf" class="btn-primary">
+                <span>DOWNLOAD RESUME ↓</span>
+              </a>
+              <a href="assets/resume/Debjeet-Dey-Resume.pdf" target="_blank" rel="noopener" class="btn-secondary">
+                <span>VIEW ↗</span>
+              </a>
+            </div>
+          </div>
+
+          <div class="about-right">
+            <!-- TODO: Replace this demo image with Debjeet's actual portrait later. -->
+            <div class="about-image-wrapper">
+              <img src="assets/images/profile-demo2.png" alt="Debjeet Dey Portrait" width="600" height="800"
+                loading="lazy">
+            </div>
+            <div class="about-handwriting">
+              <span>// DATA × CREATIVE</span>
+              <span>✦</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 3: SELECTED WORK -->
+    <section id="work" class="work-section reveal-on-scroll">
+      <div class="container">
+
+        <div class="work-header">
+          <div>
+            <div class="section-tag">02 / SELECTED WORK</div>
+            <h2 class="section-title">SELECTED<br>WORKS<span class="red-dot">.</span></h2>
+          </div>
+          <p class="section-subtitle">
+            Selected projects built across web development, software engineering, and data-driven applications.
+          </p>
+        </div>
+
+        <div class="projects-grid">
+
+          <!-- PROJECT 01: HYPERLOCAL SERVICE APP -->
+          <article class="project-card">
+            <div class="project-image-area">
+              <!-- TODO: Replace with actual project screenshot. -->
+              <img src="assets/images/projects/hyperlocal-demo.jpg" alt="Hyperlocal Service App Interface Mockup"
+                width="800" height="450" loading="lazy">
+            </div>
+
+            <div class="project-info-area">
+              <div class="project-num">PROJECT // 01</div>
+              <h3 class="project-title">HYPERLOCAL SERVICE APP</h3>
+              <p class="project-description">
+                A location-based platform where users post service requests visible to providers within a 5–10 km
+                radius, featuring a competitive bidding system for selecting service providers.
+              </p>
+
+              <ul class="project-features-list">
+                <li>Location-based service requests &amp; provider discovery</li>
+                <li>Competitive bidding &amp; instant notifications</li>
+                <li>Auto-archival &amp; post-service star ratings</li>
+                <li>Provider profile history &amp; review system</li>
+              </ul>
+
+              <div class="project-badge">
+                <span>🏆 Hackathon Project — 3rd Rank in Host College Submissions</span>
+              </div>
+
+              <div class="project-tech-tags">
+                <span class="tech-tag">Flask</span>
+                <span class="tech-tag">Python</span>
+                <span class="tech-tag">PostgreSQL</span>
+                <span class="tech-tag">Jinja2</span>
+                <span class="tech-tag">HTML5</span>
+                <span class="tech-tag">CSS3</span>
+              </div>
+
+              <div class="project-links">
+                <a href="https://github.com/Debjeet-Dey/local_service_app" target="_blank" rel="noopener"
+                  class="btn-primary">
+                  <span>GITHUB REPO ↗</span>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- PROJECT 02: PLACEMENT PORTAL -->
+          <article class="project-card">
+            <div class="project-image-area">
+              <!-- TODO: Replace with actual project screenshot. -->
+              <img src="assets/images/projects/placement-demo.jpg" alt="Placement Portal Interface Mockup" width="800"
+                height="450" loading="lazy">
+            </div>
+
+            <div class="project-info-area">
+              <div class="project-num">PROJECT // 02</div>
+              <h3 class="project-title">PLACEMENT PORTAL</h3>
+              <p class="project-description">
+                A multi-role campus placement portal supporting Admin, Company, and Student workflows with robust
+                role-based access control.
+              </p>
+
+              <ul class="project-features-list">
+                <li>Role-based access control (Admin / Company / Student)</li>
+                <li>Admin approval for company registration &amp; placement drives</li>
+                <li>Student application tracking &amp; duplicate prevention</li>
+                <li>Link-based resume viewing &amp; recruiter shortlist management</li>
+              </ul>
+
+              <div class="project-badge">
+                <span>⭐ IIT Madras MAD1 Project — Score: 94/100 (S Grade)</span>
+              </div>
+
+              <div class="project-tech-tags">
+                <span class="tech-tag">Flask</span>
+                <span class="tech-tag">Python</span>
+                <span class="tech-tag">SQLAlchemy</span>
+                <span class="tech-tag">Jinja2</span>
+                <span class="tech-tag">HTML5</span>
+                <span class="tech-tag">CSS3</span>
+              </div>
+
+              <div class="project-links">
+                <a href="https://github.com/Debjeet-Dey/Placement_Portal_Application_1" target="_blank" rel="noopener"
+                  class="btn-primary">
+                  <span>GITHUB REPO ↗</span>
+                </a>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 4: EDUCATION -->
+    <section id="education" class="education-section reveal-on-scroll">
+      <div class="container">
+        <div class="section-tag">03 / ACADEMIC BACKGROUND</div>
+        <h2 class="section-title">EDUCATION<span class="red-dot">.</span></h2>
+
+        <table class="education-table" aria-label="Education Timeline">
+          <thead>
+            <tr>
+              <th scope="col">#</th>
+              <th scope="col">Degree &amp; Program</th>
+              <th scope="col">Institution</th>
+              <th scope="col">Timeline</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="edu-num">01</td>
+              <td>
+                <div class="edu-degree">BS IN DATA SCIENCE AND APPLICATIONS</div>
+              </td>
+              <td>
+                <div class="edu-institution">Indian Institute of Technology Madras</div>
+              </td>
+              <td>
+                <div class="edu-timeline">Expected May 2028</div>
+              </td>
+            </tr>
+            <tr>
+              <td class="edu-num">02</td>
+              <td>
+                <div class="edu-degree">BSC (HONS) IN COMPUTER SCIENCE</div>
+              </td>
+              <td>
+                <div class="edu-institution">BB College, Kazi Nazrul University</div>
+              </td>
+              <td>
+                <div class="edu-timeline">Expected 2029</div>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- SECTION 5: SKILLS / TECH MARQUEE -->
+    <section id="skills" class="skills-section reveal-on-scroll">
+      <div class="container">
+        <div class="section-tag">04 / TECHNICAL STACK</div>
+        <h2 class="section-title">TOOLS.<br>TECH.<br>STACK<span class="red-dot">.</span></h2>
+      </div>
+
+      <div class="marquee-container">
+        <!-- Row 1: Left -> Right -->
+        <div class="marquee-track marquee-track-1">
+          <div class="marquee-item">PYTHON <span class="marquee-glyph">✦</span></div>
+          <div class="marquee-item">SQL <span class="marquee-glyph">✦</span></div>
+          <div class="marquee-item">POSTGRESQL <span class="marquee-glyph">✦</span></div>
+          <div class="marquee-item">FLASK <span class="marquee-glyph">✦</span></div>
+          <div class="marquee-item">JAVASCRIPT <span class="marquee-glyph">✦</span></div>
+          <div class="marquee-item">JAVA <span class="marquee-glyph">✦</span></div>
+          <div class="marquee-item">C <span class="marquee-glyph">✦</span></div>
+          <!-- Duplicate for seamless scroll -->
+          <div class="marquee-item">PYTHON <span class="marquee-glyph">✦</span></div>
+          <div class="marquee-item">SQL <span class="marquee-glyph">✦</span></div>
+          <div class="marquee-item">POSTGRESQL <span class="marquee-glyph">✦</span></div>
+          <div class="marquee-item">FLASK <span class="marquee-glyph">✦</span></div>
+          <div class="marquee-item">JAVASCRIPT <span class="marquee-glyph">✦</span></div>
+          <div class="marquee-item">JAVA <span class="marquee-glyph">✦</span></div>
+          <div class="marquee-item">C <span class="marquee-glyph">✦</span></div>
+        </div>
+
+        <!-- Row 2: Right -> Left -->
+        <div class="marquee-track marquee-track-2">
+          <div class="marquee-item">HTML5 <span class="marquee-glyph">✦</span></div>
+          <div class="marquee-item">CSS3 <span class="marquee-glyph">✦</span></div>
+          <div class="marquee-item">GIT <span class="marquee-glyph">✦</span></div>
+          <div class="marquee-item">GITHUB <span class="marquee-glyph">✦</span></div>
+          <div class="marquee-item">ADOBE PHOTOSHOP <span class="marquee-glyph">✦</span></div>
+          <div class="marquee-item">MICROSOFT EXCEL <span class="marquee-glyph">✦</span></div>
+          <!-- Duplicate for seamless scroll -->
+          <div class="marquee-item">HTML5 <span class="marquee-glyph">✦</span></div>
+          <div class="marquee-item">CSS3 <span class="marquee-glyph">✦</span></div>
+          <div class="marquee-item">GIT <span class="marquee-glyph">✦</span></div>
+          <div class="marquee-item">GITHUB <span class="marquee-glyph">✦</span></div>
+          <div class="marquee-item">ADOBE PHOTOSHOP <span class="marquee-glyph">✦</span></div>
+          <div class="marquee-item">MICROSOFT EXCEL <span class="marquee-glyph">✦</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 6: CERTIFICATIONS -->
+    <section id="certifications" class="certifications-section reveal-on-scroll">
+      <div class="container">
+        <div class="section-tag">05 / VERIFIED CREDENTIALS</div>
+        <h2 class="section-title">CERTIFIED<span class="red-dot">.</span></h2>
+
+        <div class="certs-grid">
+
+          <div class="cert-card">
+            <div>
+              <div class="cert-issuer">HACKERRANK CREDENTIAL</div>
+              <h3 class="cert-title">SQL (INTERMEDIATE)</h3>
+            </div>
+            <div>
+              <p class="cert-year">Issued 2026</p>
+              <button class="btn-secondary" style="margin-top: 1rem;"
+                onclick="alert('HackerRank Certificate URL can be updated here.')">
+                <span>VIEW CERTIFICATE ↗</span>
+              </button>
+            </div>
+          </div>
+
+          <div class="cert-card">
+            <div>
+              <div class="cert-issuer">HACKERRANK CREDENTIAL</div>
+              <h3 class="cert-title">SQL (BASIC)</h3>
+            </div>
+            <div>
+              <p class="cert-year">Issued 2026</p>
+              <button class="btn-secondary" style="margin-top: 1rem;"
+                onclick="alert('HackerRank Certificate URL can be updated here.')">
+                <span>VIEW CERTIFICATE ↗</span>
+              </button>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 7: CREATIVE SIDE -->
+    <section id="creative" class="creative-section reveal-on-scroll">
+      <div class="container">
+        <div class="section-tag">06 / CREATIVE SIDE</div>
+        <h2 class="section-title">BEYOND<br>CODE<span class="red-dot">.</span></h2>
+        <p class="section-subtitle">
+          Graphic design, photo editing, YouTube thumbnail design, poster work, and visual experimentation.
+        </p>
+
+        <div class="creative-gallery">
+          <!-- TODO: Replace demo creative images with Debjeet's actual work. -->
+
+          <div class="creative-item creative-item-1">
+            <img src="assets/images/creative/creative-demo-01.jpg" alt="YouTube Thumbnail Design Demo" loading="lazy">
+            <div class="creative-overlay">
+              <span class="creative-tag">01 // YOUTUBE THUMBNAIL DESIGN</span>
+              <h3 class="creative-title">FREELANCE CONTENT GRAPHICS</h3>
+            </div>
+          </div>
+
+          <div class="creative-item creative-item-2">
+            <img src="assets/images/creative/creative-demo-02.jpg" alt="Poster Design Demo" loading="lazy">
+            <div class="creative-overlay">
+              <span class="creative-tag">02 // POSTER ART &amp; TYPOGRAPHY</span>
+              <h3 class="creative-title">NEURAL SYNTAX</h3>
+            </div>
+          </div>
+
+          <div class="creative-item creative-item-3">
+            <img src="assets/images/creative/creative-demo-03.jpg" alt="Photo Manipulation Demo" loading="lazy">
+            <div class="creative-overlay">
+              <span class="creative-tag">03 // PHOTO MANIPULATION &amp; ART DIRECTION</span>
+              <h3 class="creative-title">ECLIPSE VISUAL EXPERIMENT</h3>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 8: LANGUAGES & PERSONAL DETAILS -->
+    <section id="languages" class="details-section reveal-on-scroll">
+      <div class="container">
+        <div class="section-tag">07 / PERSONAL DETAILS</div>
+        <h2 class="section-title">LANGUAGES &amp;<br>INTERESTS<span class="red-dot">.</span></h2>
+
+        <div class="details-grid">
+
+          <div class="details-card">
+            <h3 class="details-card-title">LANGUAGES SPOKEN</h3>
+            <div class="lang-list">
+              <div class="lang-item">
+                <span class="lang-name">ENGLISH</span>
+                <span class="lang-level">Professional Working Proficiency</span>
+              </div>
+              <div class="lang-item">
+                <span class="lang-name">HINDI</span>
+                <span class="lang-level">Native / Fluent — Spoken</span>
+              </div>
+              <div class="lang-item">
+                <span class="lang-name">BENGALI</span>
+                <span class="lang-level">Native — Spoken</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="details-card">
+            <h3 class="details-card-title">CREATIVE INTERESTS</h3>
+            <div class="interests-cloud">
+              <span class="interest-badge">Graphic Design</span>
+              <span class="interest-badge">Photo Editing</span>
+              <span class="interest-badge">Thumbnail Design</span>
+              <span class="interest-badge">Poster Design</span>
+              <span class="interest-badge">Photo Manipulation</span>
+              <span class="interest-badge">Data Visualization</span>
+              <span class="interest-badge">Backend Architecture</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 9: CONTACT -->
+    <section id="contact" class="contact-section reveal-on-scroll">
+      <div class="container">
+        <div class="section-tag">08 / GET IN TOUCH</div>
+        <h2 class="contact-title">
+          HAVE AN IDEA?<br>
+          <span class="text-yellow">LET'S TALK</span><span class="red-dot">.</span>
+        </h2>
+
+        <div class="contact-email-box">
+          <button class="contact-email-link" title="Click to copy email address">
+            debjeetdeywindows@gmail.com ↗
+          </button>
+        </div>
+
+        <div class="contact-info-grid">
+          <div class="contact-info-block">
+            <h4>LOCATION</h4>
+            <p>Kolkata, West Bengal, India</p>
+          </div>
+          <div class="contact-info-block">
+            <h4>PHONE</h4>
+            <p><a href="tel:+918670395855">+91 8670395855</a></p>
+          </div>
+          <div class="contact-info-block">
+            <h4>LINKEDIN</h4>
+            <p><a href="https://linkedin.com/in/debjeet-dey1234" target="_blank"
+                rel="noopener">linkedin.com/in/debjeet-dey1234 ↗</a></p>
+          </div>
+          <div class="contact-info-block">
+            <h4>GITHUB</h4>
+            <p><a href="https://github.com/Debjeet-Dey" target="_blank" rel="noopener">github.com/Debjeet-Dey ↗</a></p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container">
+
+      <div class="footer-top">
+        <div>
+          <h3 class="footer-brand-title">DEBJEET DEY</h3>
+          <p class="footer-brand-tag">Data Science × Software × Creative</p>
+        </div>
+
+        <div class="footer-nav-columns">
+          <div class="footer-col">
+            <h5>NAVIGATION</h5>
+            <ul>
+              <li><a href="#hero">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#work">Work</a></li>
+              <li><a href="#education">Education</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h5>MORE</h5>
+            <ul>
+              <li><a href="#skills">Skills</a></li>
+              <li><a href="#creative">Creative</a></li>
+              <li><a href="#contact">Contact</a></li>
+              <li><a href="assets/resume/Debjeet-Dey-Resume.pdf" target="_blank">Resume PDF</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h5>CONNECT</h5>
+            <ul>
+              <li><a href="https://github.com/Debjeet-Dey" target="_blank" rel="noopener">GitHub ↗</a></li>
+              <li><a href="https://linkedin.com/in/debjeet-dey1234" target="_blank" rel="noopener">LinkedIn ↗</a></li>
+              <li><a href="mailto:debjeetdeywindows@gmail.com">Email ↗</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© 2026 Debjeet Dey. All rights reserved.</p>
+        <p>Built with pure HTML, CSS &amp; JS • GSAP &amp; Lenis</p>
+      </div>
+
+    </div>
+  </footer>
+
+</body>
+
+</html>
